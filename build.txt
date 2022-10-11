@@ -1,0 +1,5 @@
+﻿displayName = [c/2effef:英雄之殇]
+author = 英雄之殇制作组
+version = 0.0.0.7
+hideCode = true
+hideResources = true

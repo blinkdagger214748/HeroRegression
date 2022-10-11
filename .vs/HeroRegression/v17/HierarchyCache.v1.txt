@@ -1,0 +1,918 @@
+﻿++解决方案“HeroRegression”‎(1 个项目/共 1 个)
+i:{00000000-0000-0000-0000-000000000000}:HeroRegression.sln
+++HeroRegression
+i:{00000000-0000-0000-0000-000000000000}:HeroRegression
+++Properties
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\properties\
+++依赖项
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:>1734
+++BossCheckList
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\bosschecklist\
+++Buffs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\buffs\
+++Dusts
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\dusts\
+++Effects
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\effects\
+++HeroPlayers
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\heroplayers\
+++HRUtlis
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\hrutlis\
+++Images
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\images\
+++Items
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\
+++NPCs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\
+++Projectiles
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\
+++Skies
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\skies\
+++Slash
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\slash\
+++HeroSlashMethod.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\slash\heroslashmethod.cs
+++Sounds
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\sounds\
+++Textures
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\
+++Tiles
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\tiles\
+++build.txt
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\build.txt
+++description.txt
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\description.txt
+++HeroRegression.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\heroregression.cs
+++HeroRegressionWorld.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\heroregressionworld.cs
+++icon.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\icon.png
+++KingCrimson.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\kingcrimson.cs
+++VertexInfo2.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\vertexinfo2.cs
+++冲刺特效.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\冲刺特效.png
+++launchSettings.json
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\properties\launchsettings.json
+++包
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:包
+++程序集
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:程序集
+++分析器
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:分析器
+++框架
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:框架
+++SeedsOfOrigin.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\bosschecklist\seedsoforigin.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\seedsoforigin\seedsoforigin.png
+++Summon
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\buffs\summon\
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\summon\
+++NaturalDust.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\dusts\naturaldust.cs
+++NaturalDust.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\dusts\naturaldust.png
+++闪耀粒子.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\dusts\闪耀粒子.cs
+++闪耀粒子.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\dusts\闪耀粒子.png
+++BigTentacle.xnb
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\effects\bigtentacle.xnb
+++HRPlr.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\heroplayers\hrplr.cs
+++ScreenPositionPlayer.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\heroplayers\screenpositionplayer.cs
+++MyDustID.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\hrutlis\mydustid.cs
+++Extra_178.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\images\extra_178.png
+++Slash1.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\images\slash1.png
+++Accessories
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\accessories\
+++AncientSteel
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\ancientsteel\
+++Beginner
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\beginner\
+++Boss
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\
+++Energeticsteel
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\
+++Moonstone
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\moonstone\
+++Soul
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\soul\
+++gjkj.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\gjkj.png
+++HeroGlobalItem.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\heroglobalitem.cs
+++Lingcuistone.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\lingcuistone.cs
+++Lingcuistone.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\lingcuistone.png
+++PolarBow.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\polarbow.cs
+++PolarBow.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\polarbow.png
+++PupilSummon.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\pupilsummon.cs
+++PupilSummon.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\pupilsummon.png
+++SunFlower.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\sunflower.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\sunflower.cs
+++SunFlower.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\sunflower.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\sunflower.png
+++波塞冬.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\波塞冬.png
+++恶性眼瘤.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\恶性眼瘤.cs
+++恶性眼瘤.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\恶性眼瘤.png
+++共工.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\共工.cs
+++共工.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\共工.png
+++共工1.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\共工1.png
+++古晶阔剑.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\古晶阔剑.cs
+++古木.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\古木.cs
+++古木.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\古木.png
+++木海太刀.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\木海太刀.cs
+++木海太刀.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\木海太刀.png
+++浓眼晶状刃.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\浓眼晶状刃.cs
+++浓眼晶状刃.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\浓眼晶状刃.png
+++浓眼瘤弓.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\浓眼瘤弓.cs
+++浓眼瘤弓.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\浓眼瘤弓.png
+++浓眼悠悠球.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\浓眼悠悠球.cs
+++浓眼悠悠球.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\浓眼悠悠球.png
+++浓眼召唤杖.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\浓眼召唤杖.png
+++生根太刀.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\生根太刀.cs
+++生根太刀.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\生根太刀.png
+++生灵飞镰.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\生灵飞镰.cs
+++生灵飞镰.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\生灵飞镰.png
+++霜木斧.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\霜木斧.cs
+++霜木斧.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\霜木斧.png
+++霜木刃.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\霜木刃.cs
+++霜木刃.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\霜木刃.png
+++焰色反应.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\焰色反应.png
+++耀根.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\耀根.cs
+++耀根.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\耀根.png
+++TownNPC
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\townnpc\
+++FallenEye.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\falleneye.cs
+++FallenEye.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\falleneye.png
+++FallenSlime.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\fallenslime.cs
+++FallenSlime.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\fallenslime.png
+++HeroGlobalNPC.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\heroglobalnpc.cs
+++NPCOwner.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\npcowner.cs
+++古木之灵.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\古木之灵.cs
+++古木之灵.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\古木之灵.png
+++YoYo
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\yoyo\
+++AbsoluteZeroProj.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\absolutezeroproj.cs
+++AbsoluteZeroProj.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\absolutezeroproj.png
+++BoomSun.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boomsun.cs
+++BoomSun.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boomsun.png
+++Flamecolordaggerdm.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\flamecolordaggerdm.cs
+++Flamecolordaggerdm.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\flamecolordaggerdm.png
+++Flameofmercydm2.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\flameofmercydm2.cs
+++Flameofmercydm2.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\flameofmercydm2.png
+++h.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\h.png
+++HeroSlash1.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\heroslash1.cs
+++HeroSlash1.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\heroslash1.png
+++Laser.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\laser.cs
+++Laser.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\laser.png
+++LC.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\lc.cs
+++LC.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\lc.png
+++Moonstonespeardm.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\moonstonespeardm.cs
+++Moonstonespeardm.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\moonstonespeardm.png
+++NaturalCrystallization.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\naturalcrystallization.cs
+++NaturalCrystallization.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\naturalcrystallization.png
+++OriginNailFriend.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\originnailfriend.cs
+++OriginNailFriend.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\originnailfriend.png
+++OriginNailFriend2.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\originnailfriend2.cs
+++OriginNailFriend2.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\originnailfriend2.png
+++Qljq.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\qljq.cs
+++Qljq.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\qljq.png
+++Realflameofdaggerdm.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\realflameofdaggerdm.cs
+++Realflameofdaggerdm.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\realflameofdaggerdm.png
+++RedBullet.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\redbullet.cs
+++RedBullet.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\redbullet.png
+++Sun.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\sun.cs
+++Sun.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\sun.png
+++Tatteredbookdm.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\tatteredbookdm.cs
+++Tatteredbookdm.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\tatteredbookdm.png
+++WorldSwordproj.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\worldswordproj.cs
+++WorldSwordproj.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\worldswordproj.png
+++WorldSwordproj2.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\worldswordproj2.cs
+++WorldSwordproj2.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\worldswordproj2.png
+++WorldSwordproj3.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\worldswordproj3.cs
+++WorldSwordproj3.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\worldswordproj3.png
+++x.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\x.png
+++YinLeiSlash1.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\yinleislash1.cs
+++YinLeiSlash1.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\yinleislash1.png
+++激流箭.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\激流箭.cs
+++激流箭.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\激流箭.png
+++闪耀根.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\闪耀根.cs
+++闪耀根.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\闪耀根.png
+++闪耀根2.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\闪耀根2.cs
+++闪耀根2.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\闪耀根2.png
+++眼球弹幕.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\眼球弹幕.cs
+++眼球弹幕.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\眼球弹幕.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\眼球弹幕.png
+++焰色.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\焰色.cs
+++焰色.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\焰色.png
+++DemonSky.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\skies\demonsky.png
+++PupilSky.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\skies\pupilsky.cs
+++Music
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\sounds\music\
+++HOFweapons
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\hofweapons\
+++Pupil
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\pupil\
+++Aex.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\aex.png
+++EX112.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\ex112.png
+++FallingSlashTex.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\fallingslashtex.png
+++FlameReactionTex.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\flamereactiontex.png
+++Glowing.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\glowing.png
+++K.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\k.png
+++LargeLaserTex.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\largelasertex.png
+++LaserTex.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\lasertex.png
+++LaserTex2.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\lasertex2.png
+++Line.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\line.png
+++QQ图片20220307135055.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\qq图片20220307135055.png
+++QQ图片20220307135107.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\qq图片20220307135107.png
+++QQ图片20220310142354.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\qq图片20220310142354.png
+++QQ图片20220310142401.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\qq图片20220310142401.png
+++Shine.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\shine.png
+++StarDrawBack.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\stardrawback.png
+++WhiteBeam.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\whitebeam.png
+++WhiteSickle.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\whitesickle.png
+++矿物
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\tiles\矿物\
+++tModLoader.CodeAssist (0.1.5)
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:>1791
+++Basic.Reference.Assemblies.Net60
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\basic.reference.assemblies.net60\1.2.4\lib\netstandard2.0\basic.reference.assemblies.net60.dll
+++CsvHelper
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\csvhelper\2.0.0.0\csvhelper.dll
+++FNA
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\fna\1.0.0\fna.dll
+++Hjson
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\hjson\3.0.0\lib\netstandard1.3\hjson.dll
+++Humanizer
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\humanizer.core\2.2.0\lib\netstandard1.0\humanizer.dll
+++Ionic.Zip.Reduced
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\ionic.zip.reduced\1.9.1.8\ionic.zip.reduced.dll
+++log4net
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\log4net\2.0.8.0\log4net.dll
+++Microsoft.Bcl.AsyncInterfaces
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\microsoft.bcl.asyncinterfaces\6.0.0\lib\netstandard2.1\microsoft.bcl.asyncinterfaces.dll
+++Microsoft.Build.Locator
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\microsoft.build.locator\1.4.1\lib\netcoreapp2.0\microsoft.build.locator.dll
+++Microsoft.CodeAnalysis
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\microsoft.codeanalysis.common\4.2.0\lib\netcoreapp3.1\microsoft.codeanalysis.dll
+++Microsoft.CodeAnalysis.CSharp
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\microsoft.codeanalysis.csharp\4.2.0\lib\netcoreapp3.1\microsoft.codeanalysis.csharp.dll
+++Microsoft.CodeAnalysis.CSharp.Workspaces
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\microsoft.codeanalysis.csharp.workspaces\4.2.0\lib\netcoreapp3.1\microsoft.codeanalysis.csharp.workspaces.dll
+++Microsoft.CodeAnalysis.FlowAnalysis.Utilities
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\microsoft.codeanalysis.flowanalysis.utilities\2.9.6\lib\netstandard1.3\microsoft.codeanalysis.flowanalysis.utilities.dll
+++Microsoft.CodeAnalysis.Workspaces
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\microsoft.codeanalysis.workspaces.common\4.2.0\lib\netcoreapp3.1\microsoft.codeanalysis.workspaces.dll
+++Microsoft.CodeAnalysis.Workspaces.MSBuild
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\microsoft.codeanalysis.workspaces.msbuild\4.2.0\lib\netcoreapp3.1\microsoft.codeanalysis.workspaces.msbuild.dll
+++Microsoft.Win32.SystemEvents
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\microsoft.win32.systemevents\6.0.0\lib\net6.0\microsoft.win32.systemevents.dll
+++Mono.Cecil
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\mono.cecil\0.11.4\lib\netstandard2.0\mono.cecil.dll
+++Mono.Cecil.Mdb
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\mono.cecil\0.11.4\lib\netstandard2.0\mono.cecil.mdb.dll
+++Mono.Cecil.Pdb
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\mono.cecil\0.11.4\lib\netstandard2.0\mono.cecil.pdb.dll
+++Mono.Cecil.Rocks
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\mono.cecil\0.11.4\lib\netstandard2.0\mono.cecil.rocks.dll
+++MonoMod.RuntimeDetour
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\monomod.runtimedetour\22.5.31.2\lib\net5.0\monomod.runtimedetour.dll
+++MonoMod.Utils
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\monomod.utils\22.5.31.2\lib\net5.0\monomod.utils.dll
+++MP3Sharp
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\mp3sharp\1.0.0.0\mp3sharp.dll
+++Newtonsoft.Json
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\newtonsoft.json\12.0.0.0\newtonsoft.json.dll
+++NVorbis
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\nvorbis\0.10.0.3\nvorbis.dll
+++RailSDK.Net
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\railsdk.net\1.0.0.0\railsdk.net.dll
+++ReLogic
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\relogic\1.0.0\relogic.dll
+++Steamworks.NET
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\steamworks.net\20.1.0\lib\netstandard2.1\steamworks.net.dll
+++SteelSeriesEngineWrapper
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\steelseriesenginewrapper\1.0.0.0\steelseriesenginewrapper.dll
+++System.CodeDom
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\system.codedom\6.0.0\lib\net6.0\system.codedom.dll
+++System.Composition.AttributedModel
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\system.composition.attributedmodel\6.0.0\lib\net6.0\system.composition.attributedmodel.dll
+++System.Composition.Convention
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\system.composition.convention\6.0.0\lib\net6.0\system.composition.convention.dll
+++System.Composition.Hosting
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\system.composition.hosting\6.0.0\lib\net6.0\system.composition.hosting.dll
+++System.Composition.Runtime
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\system.composition.runtime\6.0.0\lib\net6.0\system.composition.runtime.dll
+++System.Composition.TypedParts
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\system.composition.typedparts\6.0.0\lib\net6.0\system.composition.typedparts.dll
+++System.Configuration.ConfigurationManager
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\system.configuration.configurationmanager\6.0.0\lib\net6.0\system.configuration.configurationmanager.dll
+++System.Diagnostics.PerformanceCounter
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\system.diagnostics.performancecounter\6.0.0\lib\net6.0\system.diagnostics.performancecounter.dll
+++System.Drawing.Common
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\system.drawing.common\6.0.0\lib\net6.0\system.drawing.common.dll
+++System.IO.Pipelines
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\system.io.pipelines\6.0.1\lib\net6.0\system.io.pipelines.dll
+++System.Reflection.MetadataLoadContext
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\system.reflection.metadataloadcontext\6.0.0\lib\net6.0\system.reflection.metadataloadcontext.dll
+++System.Security.Cryptography.ProtectedData
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\system.security.cryptography.protecteddata\6.0.0\lib\net6.0\system.security.cryptography.protecteddata.dll
+++System.Security.Permissions
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\system.security.permissions\6.0.0\lib\net6.0\system.security.permissions.dll
+++System.Windows.Extensions
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\system.windows.extensions\6.0.0\lib\net6.0\system.windows.extensions.dll
+++TerrariaHooks
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\terrariahooks\0.0.0.0\terrariahooks.dll
+++tModLoader
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\tmodloader.dll
+++tModPorter
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\tmodporter\1.0.0\tmodporter.dll
+++UtfUnknown
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:d:\gme\steamapps\common\tmodloader\libraries\utf.unknown\2.5.0\lib\netcoreapp3.0\utfunknown.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\program files\dotnet\sdk\6.0.302\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\program files\dotnet\sdk\6.0.302\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.7\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++tModLoader.CodeAssist
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\.nuget\packages\tmodloader.codeassist\0.1.5\analyzers\dotnet\cs\tmodloader.codeassist.dll
+++Microsoft.NETCore.App
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\microsoft.netcore.app
+++IceManBuff.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\buffs\summon\icemanbuff.cs
+++IceManBuff.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\buffs\summon\icemanbuff.png
+++Crystal
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\crystal\
+++ColorfulCrystal.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\colorfulcrystal.cs
+++ColorfulCrystal.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\colorfulcrystal.png
+++Disorder.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\disorder.cs
+++Disorder.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\disorder.png
+++Overloaded_Energy.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\overloaded_energy.cs
+++Overloaded_Energy.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\overloaded_energy.png
+++Thebadgeofpurity.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\thebadgeofpurity.cs
+++Thebadgeofpurity.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\thebadgeofpurity.png
+++ToughBlade.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\toughblade.cs
+++ToughBlade.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\toughblade.png
+++Ancientsteelbow.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\ancientsteel\ancientsteelbow.cs
+++Ancientsteelknife.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\ancientsteel\ancientsteelknife.cs
+++Ancientsteelknife.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\ancientsteel\ancientsteelknife.png
+++神代猎弓.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\ancientsteel\神代猎弓.png
+++BeginnerArmor.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\beginner\beginnerarmor.cs
+++BeginnerArmor.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\beginner\beginnerarmor.png
+++BeginnerArmor_Arms.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\beginner\beginnerarmor_arms.png
+++BeginnerArmor_Body.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\beginner\beginnerarmor_body.png
+++BeginnerHelmet.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\beginner\beginnerhelmet.cs
+++BeginnerHelmet.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\beginner\beginnerhelmet.png
+++BeginnerHelmet_Head.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\beginner\beginnerhelmet_head.png
+++BeginnerPanty.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\beginner\beginnerpanty.cs
+++BeginnerPanty.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\beginner\beginnerpanty.png
+++BeginnerPanty_Legs.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\beginner\beginnerpanty_legs.png
+++BrokenInitialHeart.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\beginner\brokeninitialheart.cs
+++BrokenInitialHeart.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\beginner\brokeninitialheart.png
+++FearOfColdCrystalWorms
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\fearofcoldcrystalworms\
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\summon\fearofcoldcrystalworms\
+++FlameReaction
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\flamereaction\
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\flamereaction\
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\flamereaction\
+++HeroOfBrewing
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\heroofbrewing\
+++SeedsOfOrigin
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\seedsoforigin\
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\seedsoforigin\
+++APOTHECARYpistol.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\apothecarypistol.cs
+++APOTHECARYpistol.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\apothecarypistol.png
+++Rapidfirepistol.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\rapidfirepistol.cs
+++Rapidfirepistol.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\rapidfirepistol.png
+++Rapidfirerifle.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\rapidfirerifle.cs
+++Rapidfirerifle.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\rapidfirerifle.png
+++Rapidfiresubmachinegun.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\rapidfiresubmachinegun.cs
+++Rapidfiresubmachinegun.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\rapidfiresubmachinegun.png
+++Standoff.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\standoff.cs
+++Standoff.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\standoff.png
+++Truestandoff.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\truestandoff.cs
+++Truestandoff.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\truestandoff.png
+++WorldCrystal.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\worldcrystal.cs
+++WorldCrystal.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\worldcrystal.png
+++WorldSword.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\worldsword.cs
+++WorldSword.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\energeticsteel\worldsword.png
+++Moonstonespear.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\moonstone\moonstonespear.cs
+++Moonstonespear.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\moonstone\moonstonespear.png
+++Tatteredbook.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\moonstone\tatteredbook.cs
+++Tatteredbook.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\moonstone\tatteredbook.png
+++Firesoul
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\firesoul\
+++Icesoul
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\icesoul\
+++Soulstone
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\soulstone\
+++Dawnanddusk.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\dawnanddusk.cs
+++Dawnanddusk.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\dawnanddusk.png
+++Heroes
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\heroes\
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\heroes\
+++HeroOfAssassin.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\heroes\heroofassassin.cs
+++HeroOfAssassin.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\heroes\heroofassassin.png
+++HeroOfForge.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\heroes\heroofforge.cs
+++HeroOfForge.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\heroes\heroofforge.png
+++HOAshadow.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\heroes\hoashadow.png
+++HOFshadow.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\heroes\hofshadow.png
+++PupilOfHell
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\pupilofhell\
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\pupilofhell\
+++Icesoul.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\soul\icesoul.cs
+++Icesoul.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\soul\icesoul.png
+++Originaladventurer.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\townnpc\originaladventurer.cs
+++Originaladventurer.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\townnpc\originaladventurer.png
+++Originaladventurer_Head.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\townnpc\originaladventurer_head.png
+++PoisonProj.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\accessories\poisonproj.cs
+++PoisonProj.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\accessories\poisonproj.png
+++KYyoyo.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\yoyo\kyyoyo.cs
+++KYyoyo.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\yoyo\kyyoyo.png
+++OSyoyo.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\yoyo\osyoyo.cs
+++OSyoyo.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\yoyo\osyoyo.png
+++FlameReaction.ogg
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\sounds\music\flamereaction.ogg
+++SeedsOfOrigin.ogg
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\sounds\music\seedsoforigin.ogg
+++锤子.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\hofweapons\锤子.png
+++短剑.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\hofweapons\短剑.png
+++法杖.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\hofweapons\法杖.png
+++飞斧.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\hofweapons\飞斧.png
+++巨镰.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\hofweapons\巨镰.png
+++手里剑.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\hofweapons\手里剑.png
+++铁胚子.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\hofweapons\铁胚子.png
+++长弓.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\hofweapons\长弓.png
+++长剑.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\hofweapons\长剑.png
+++长矛.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\hofweapons\长矛.png
+++Circle.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\pupil\circle.png
+++Circle2.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\pupil\circle2.png
+++flashing.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\pupil\flashing.png
+++Phase2.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\pupil\phase2.png
+++PupExp.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\pupil\pupexp.png
+++PupLaser.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\pupil\puplaser.png
+++Storm.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\pupil\storm.png
+++Storm1.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\pupil\storm1.png
+++Warning.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\textures\pupil\warning.png
+++古木物块.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\tiles\矿物\古木物块.cs
+++古木物块.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\tiles\矿物\古木物块.png
+++灵翠石物块.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\tiles\矿物\灵翠石物块.cs
+++灵翠石物块.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\tiles\矿物\灵翠石物块.png
+++BloodCrystal.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\crystal\bloodcrystal.cs
+++BloodCrystal.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\crystal\bloodcrystal.png
+++Chlorite.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\crystal\chlorite.cs
+++Chlorite.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\crystal\chlorite.png
+++Lazurite.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\crystal\lazurite.cs
+++Lazurite.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\crystal\lazurite.png
+++PeaceCrystal.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\crystal\peacecrystal.cs
+++PeaceCrystal.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\accessories\crystal\peacecrystal.png
+++AbsoluteZero.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\fearofcoldcrystalworms\absolutezero.cs
+++AbsoluteZero.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\fearofcoldcrystalworms\absolutezero.png
+++ColdSnake.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\fearofcoldcrystalworms\coldsnake.cs
+++ColdSnake.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\fearofcoldcrystalworms\coldsnake.png
+++FrostWhistle.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\fearofcoldcrystalworms\frostwhistle.cs
+++FrostWhistle.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\fearofcoldcrystalworms\frostwhistle.png
+++Flamecolordagger.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\flamereaction\flamecolordagger.cs
+++Flamecolordagger.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\flamereaction\flamecolordagger.png
+++Flameofmercy.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\flamereaction\flameofmercy.cs
+++Flameofmercy.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\flamereaction\flameofmercy.png
+++Trueflameofdagger.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\flamereaction\trueflameofdagger.cs
+++Trueflameofdagger.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\flamereaction\trueflameofdagger.png
+++焰合提灯.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\flamereaction\焰合提灯.cs
+++焰合提灯.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\flamereaction\焰合提灯.png
+++Sparklingbouquet.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\heroofbrewing\sparklingbouquet.cs
+++Sparklingbouquet.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\heroofbrewing\sparklingbouquet.png
+++Brilliant.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\brilliant.cs
+++Brilliant.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\brilliant.png
+++Calcificationofcrystallization.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\calcificationofcrystallization.cs
+++Calcificationofcrystallization.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\calcificationofcrystallization.png
+++GreenCrystalYoYo.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\greencrystalyoyo.cs
+++GreenCrystalYoYo.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\greencrystalyoyo.png
+++GreenShadeBow.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\greenshadebow.cs
+++GreenShadeBow.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\greenshadebow.png
+++GroupOfHeroes.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\groupofheroes.cs
+++GroupOfHeroes.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\groupofheroes.png
+++OriginalInterest.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\originalinterest.cs
+++OriginalInterestBuff.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\originalinterestbuff.png
+++OriginalInterestGenie.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\originalinterestgenie.png
+++OriginalInterestItem.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\originalinterestitem.png
+++SlimeArmor.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\slimearmor.cs
+++SlimeArmor.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\slimearmor.png
+++SlimeArmor_Arms.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\slimearmor_arms.png
+++SlimeArmor_Body.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\slimearmor_body.png
+++SlimeHelmet.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\slimehelmet.cs
+++SlimeHelmet.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\slimehelmet.png
+++SlimeHelmet_Head.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\slimehelmet_head.png
+++SlimePanty.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\slimepanty.cs
+++SlimePanty.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\slimepanty.png
+++SlimePanty_Legs.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\slimepanty_legs.png
+++起源之种财宝袋.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\起源之种财宝袋.cs
+++起源之种财宝袋.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\起源之种财宝袋.png
+++重生之晶.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\重生之晶.cs
+++重生之晶.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\boss\seedsoforigin\重生之晶.png
+++ArbiterArmor.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\firesoul\arbiterarmor.cs
+++ArbiterArmor.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\firesoul\arbiterarmor.png
+++ArbiterArmor_Arms.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\firesoul\arbiterarmor_arms.png
+++ArbiterArmor_Body.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\firesoul\arbiterarmor_body.png
+++ArbiterHelmet.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\firesoul\arbiterhelmet.cs
+++ArbiterHelmet.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\firesoul\arbiterhelmet.png
+++ArbiterHelmet_Head.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\firesoul\arbiterhelmet_head.png
+++ArbiterPanty.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\firesoul\arbiterpanty.cs
+++ArbiterPanty.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\firesoul\arbiterpanty.png
+++ArbiterPanty_Legs.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\firesoul\arbiterpanty_legs.png
+++FrozenArmor.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\icesoul\frozenarmor.cs
+++FrozenArmor.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\icesoul\frozenarmor.png
+++FrozenArmor_Arms.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\icesoul\frozenarmor_arms.png
+++FrozenArmor_Body.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\icesoul\frozenarmor_body.png
+++FrozenHelmet.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\icesoul\frozenhelmet.cs
+++FrozenHelmet.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\icesoul\frozenhelmet.png
+++FrozenHelmet_Head.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\icesoul\frozenhelmet_head.png
+++FrozenPanty.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\icesoul\frozenpanty.cs
+++FrozenPanty.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\icesoul\frozenpanty.png
+++FrozenPanty_Legs.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\icesoul\frozenpanty_legs.png
+++qlmj.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\soulstone\qlmj.cs
+++qlmj.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\items\soul\soulstone\qlmj.png
+++FlameReactionBoss.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\flamereaction\flamereactionboss.cs
+++FlameReactionBoss.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\flamereaction\flamereactionboss.png
+++FlameReactionBoss_Head_Boss.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\flamereaction\flamereactionboss_head_boss.png
+++LootNPC.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\pupilofhell\lootnpc.png
+++PupilMinion.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\pupilofhell\pupilminion.cs
+++PupilMinion.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\pupilofhell\pupilminion.png
+++PupilOfHell.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\pupilofhell\pupilofhell.cs
+++PupilOfHell.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\pupilofhell\pupilofhell.png
+++PupilOfHell_Head_Boss.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\pupilofhell\pupilofhell_head_boss.png
+++恶火石.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\pupilofhell\恶火石.png
+++OriginGuard.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\seedsoforigin\originguard.cs
+++OriginGuard.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\seedsoforigin\originguard.png
+++SeedsOfOrigin.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\seedsoforigin\seedsoforigin.cs
+++SeedsOfOrigin_Head_Boss.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\npcs\boss\seedsoforigin\seedsoforigin_head_boss.png
+++FallingSlash.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\flamereaction\fallingslash.cs
+++FallingSlash.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\flamereaction\fallingslash.png
+++FlameReactionBulletP2.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\flamereaction\flamereactionbulletp2.cs
+++FlameReactionBulletP2.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\flamereaction\flamereactionbulletp2.png
+++FlameReactionStar.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\flamereaction\flamereactionstar.cs
+++FlameReactionStar.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\flamereaction\flamereactionstar.png
+++StarExplode.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\flamereaction\starexplode.cs
+++StarExplode.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\flamereaction\starexplode.png
+++AssassinProjectiles.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\heroes\assassinprojectiles.cs
+++ExampleProj.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\heroes\exampleproj.png
+++ExampleProj1.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\heroes\exampleproj1.png
+++ForgeProjectiles.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\heroes\forgeprojectiles.cs
+++Chains.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\pupilofhell\chains.png
+++MinionProj.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\pupilofhell\minionproj.png
+++PupilProj.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\pupilofhell\pupilproj.cs
+++PupilProj.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\pupilofhell\pupilproj.png
+++DashingEMD.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\seedsoforigin\dashingemd.cs
+++DashingEMD.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\seedsoforigin\dashingemd.png
+++FallingEMD.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\seedsoforigin\fallingemd.cs
+++FallingEMD.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\seedsoforigin\fallingemd.png
+++OriginKnife.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\seedsoforigin\originknife.cs
+++OriginKnife.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\seedsoforigin\originknife.png
+++OriginLeaf.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\seedsoforigin\originleaf.cs
+++OriginLeaf.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\seedsoforigin\originleaf.png
+++OriginNail.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\seedsoforigin\originnail.cs
+++OriginNail.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\seedsoforigin\originnail.png
+++SeedWall.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\seedsoforigin\seedwall.cs
+++SeedWall.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\boss\seedsoforigin\seedwall.png
+++IceBullet.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\summon\fearofcoldcrystalworms\icebullet.png
+++IceMan.cs
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\summon\fearofcoldcrystalworms\iceman.cs
+++IceMan.png
+i:{5d811aa9-d410-4d7f-884e-c6486a822b7d}:c:\users\86183\documents\my games\terraria\tmodloader\modsources\heroregression\projectiles\summon\fearofcoldcrystalworms\iceman.png
