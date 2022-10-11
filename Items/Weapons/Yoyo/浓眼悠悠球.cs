@@ -8,7 +8,7 @@ using Terraria.ModLoader;
 using HeroRegression.Projectiles;
 using HeroRegression.Projectiles.YoYo;
 
-namespace HeroRegression.Items
+namespace HeroRegression.Items.Weapons.Yoyo
 {
    public class 浓眼悠悠球 : ModItem
     {

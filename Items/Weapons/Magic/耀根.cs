@@ -7,7 +7,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using HeroRegression.Projectiles;
 
-namespace HeroRegression.Items
+namespace HeroRegression.Items.Weapons.Magic
 {
     class 耀根 : ModItem
     {

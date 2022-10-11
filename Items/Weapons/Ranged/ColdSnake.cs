@@ -3,7 +3,6 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Localization;
 using Microsoft.Xna.Framework;
-using HeroRegression.Items.Boss.SeedsOfOrigin;
 using Terraria.DataStructures;
 
 namespace HeroRegression.Items.Weapons.Ranged

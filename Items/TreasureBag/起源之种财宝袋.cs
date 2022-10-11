@@ -14,8 +14,9 @@ using HeroRegression.Items.Weapons.Yoyo;
 using HeroRegression.Items.Weapons.Ranged;
 using HeroRegression.Items.Weapons.Melee;
 using HeroRegression.Items.Material;
+using HeroRegression.Items.Weapons.Minion;
 
-namespace HeroRegression.Items.Boss.SeedsOfOrigin
+namespace HeroRegression.Items.TreasureBag
 {
     public class 起源之种财宝袋 : ModItem
 	{

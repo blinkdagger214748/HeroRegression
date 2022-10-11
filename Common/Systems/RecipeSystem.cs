@@ -169,7 +169,11 @@ namespace HeroRegression.Common.Systems
             }
             );
             RecipeGroup.RegisterGroup("HeroRegression:AnyBird", AnyBird);
-
+        }
+        public override void PreUpdateEntities()
+        {
+            if (HeroRegression.GameTimeNoPause <= 999999) HeroRegression.GameTimeNoPause++;
+            else HeroRegression.GameTimeNoPause = 0;
         }
     }
 }

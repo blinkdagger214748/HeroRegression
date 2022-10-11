@@ -6,7 +6,7 @@ using Terraria.ID;
 using Microsoft.Xna.Framework;
 
 
-namespace HeroRegression.Items
+namespace HeroRegression.Items.Weapons.Melee
 {
     //文件名
     public class 生根太刀 : ModItem

@@ -155,7 +155,7 @@ namespace HeroRegression.NPCs.TownNPC
                 shop.item[nextSlot].value = 25000;
                 nextSlot++;
             }
-            shop.item[nextSlot].SetDefaults(ModContent.ItemType<Items.PolarBow>());
+            shop.item[nextSlot].SetDefaults(ModContent.ItemType<Items.Weapons.Ranged.PolarBow>());
             shop.item[nextSlot].value = 10000;
             nextSlot++;
             shop.item[nextSlot].SetDefaults(3069);

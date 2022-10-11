@@ -9,7 +9,7 @@ using HeroRegression.Projectiles;
 using Terraria.DataStructures;
 using HeroRegression.Items.Material;
 
-namespace HeroRegression.Items
+namespace HeroRegression.Items.Weapons.Ranged
 {
     class 浓眼瘤弓 : ModItem
     {

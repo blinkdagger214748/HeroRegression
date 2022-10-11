@@ -6,7 +6,7 @@ using Terraria.ID;
 using Microsoft.Xna.Framework;
 
 
-namespace HeroRegression.Items
+namespace HeroRegression.Items.Tools.Axe
 {
     //文件名
     public class 霜木斧 : ModItem

@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework;
 using Terraria.DataStructures;
 using HeroRegression.Projectiles;
 
-namespace HeroRegression.Items
+namespace HeroRegression.Items.Weapons.Ranged
 {
     //文件名
     public class 共工 : ModItem

@@ -1,12 +1,19 @@
 global using Terraria.Audio;
 global using HeroRegression.Common.BaseClasses.BaseSummon;
+global using HeroRegression.Common.BaseClasses.BaseWeapon;
+global using HeroRegression.Common.BaseClasses.BaseProj;
 global using HeroRegression.Common.Systems;
 global using HeroRegression.Items.Material;
+global using HeroRegression.HeroPlayers;
+global using HeroRegression.HRUtils;
+global using Microsoft.Xna.Framework.Graphics;
 global using Terraria.ID;
 global using static HeroRegression.HRHelper;
 global using Terraria.Localization;
+global using Terraria.GameContent;
+global using System;
+global using System.Collections.Generic;
 using HeroRegression.Skies;
-using Microsoft.Xna.Framework.Graphics;
 using Terraria;
 using Terraria.Graphics.Effects;
 using Terraria.Graphics.Shaders;
@@ -20,7 +27,7 @@ namespace HeroRegression
     public class HeroRegression : Mod
     {
         public static HeroRegression Instance;
-
+        public static float GameTimeNoPause;
         public override void Load()
         {
             // 加载
