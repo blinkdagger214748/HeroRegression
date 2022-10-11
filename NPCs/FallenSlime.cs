@@ -2,12 +2,12 @@
 using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.Localization;
-using HeroRegression.Items.Beginner;
 using Terraria.GameContent.ItemDropRules;
+using HeroRegression.Items.Material;
 
 namespace HeroRegression.NPCs
 {
-	public class FallenSlime : ModNPC
+    public class FallenSlime : ModNPC
 	{
 		public override void SetStaticDefaults()
 		{

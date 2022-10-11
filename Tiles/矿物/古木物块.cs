@@ -23,7 +23,7 @@ namespace HeroRegression.Tiles.矿物
             name.SetDefault("古木");
             AddMapEntry(new Color(35, 17, 17), name);
             HitSound = SoundID.Tink;
-            ItemDrop = ItemType<古木>();
+            ItemDrop = ItemType<Items.Placeable.Block.古木>();
             MinPick = 70;
 
         }

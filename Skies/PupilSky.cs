@@ -52,7 +52,7 @@ namespace HeroRegression.Skies
             if (maxDepth >= 0 && minDepth < 0)
             {
 
-                        spriteBatch.Draw(HeroRegression.GetTex("HeroRegression/Skies/DemonSky"),
+                        spriteBatch.Draw(GetTex("HeroRegression/Skies/DemonSky"),
                             new Rectangle(0, 0, Main.screenWidth, Main.screenHeight),Color.OrangeRed * 0.4f);
             }
         }

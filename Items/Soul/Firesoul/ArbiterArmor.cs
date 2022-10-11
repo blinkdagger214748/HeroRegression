@@ -1,4 +1,4 @@
-﻿using HeroRegression.Items.Boss.SeedsOfOrigin;
+﻿using HeroRegression.Items.Material;
 using Terraria;
 using Terraria.ID;
 using Terraria.Localization;

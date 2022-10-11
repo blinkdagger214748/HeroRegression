@@ -22,7 +22,7 @@ namespace HeroRegression.Tiles.矿物
             ModTranslation name = CreateMapEntryName();
             name.SetDefault("Lingcuistone");
             AddMapEntry(new Color(84, 240, 161), name);
-            ItemDrop = ItemType<Lingcuistone>();
+            ItemDrop = ItemType<Items.Placeable.Block.Lingcuistone>();
             HitSound = SoundID.Tink;
             MinPick = 70;
 

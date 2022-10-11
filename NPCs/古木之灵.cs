@@ -29,7 +29,7 @@ namespace HeroRegression.NPCs
         }
         public override float SpawnChance(NPCSpawnInfo spawnInfo)
         {
-            if (Main.dayTime&& NPC.downedBoss2)
+            if (Main.dayTime && NPC.downedBoss2)
                 return 0.02f;
             return 0.0f;
         }
@@ -77,10 +77,10 @@ namespace HeroRegression.NPCs
         public override void OnKill()  //NPC掉落
         {
             //方法：Item.NewItem(null,NPC.Center, ItemID, Main.rand.Next(1, 5));
-            Item.NewItem(null,(int)NPC.position.X, (int)NPC.position.Y, NPC.width, NPC.height, 
-                ModContent.ItemType<Items.古木>(), Main.rand.Next(1, 5));
-            Item.NewItem(null,(int)NPC.position.X, (int)NPC.position.Y, NPC.width, NPC.height,
-               ModContent.ItemType<Items.Lingcuistone>(), Main.rand.Next(1, 5));
+            Item.NewItem(null, (int)NPC.position.X, (int)NPC.position.Y, NPC.width, NPC.height,
+                ModContent.ItemType<Items.Placeable.Block.古木>(), Main.rand.Next(1, 5));
+            Item.NewItem(null, (int)NPC.position.X, (int)NPC.position.Y, NPC.width, NPC.height,
+               ModContent.ItemType<Items.Placeable.Block.Lingcuistone>(), Main.rand.Next(1, 5));
         }
     }
 }

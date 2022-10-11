@@ -15,10 +15,6 @@ namespace HeroRegression.Projectiles.Boss.Heros
 {
     class ForgeHammer : ModProjectile//锻造之锤
     {
-        public Texture2D GetTex(string path)
-        {
-            return ModContent.Request<Texture2D>(path).Value;
-        }
         public override string Texture => "HeroRegression/Textures/HOFweapons/锤子"; public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 10;
@@ -80,10 +76,6 @@ namespace HeroRegression.Projectiles.Boss.Heros
     }
     class ForgeIngot : ModProjectile//铁锭
     {
-        public Texture2D GetTex(string path)
-        {
-            return ModContent.Request<Texture2D>(path).Value;
-        }
         public override string Texture => "HeroRegression/Textures/HOFweapons/铁胚子"; public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 10;
@@ -157,10 +149,6 @@ namespace HeroRegression.Projectiles.Boss.Heros
     }
     class ForgeSword : ModProjectile//锻造之剑
     {
-        public Texture2D GetTex(string path)
-        {
-            return ModContent.Request<Texture2D>(path).Value;
-        }
         float t = 0;
         public override string Texture => "HeroRegression/Textures/HOFweapons/长剑"; public override void SetStaticDefaults()
         {
@@ -310,10 +298,6 @@ namespace HeroRegression.Projectiles.Boss.Heros
     }
     class ForgeSpear : ModProjectile
     {
-        public Texture2D GetTex(string path)
-        {
-            return ModContent.Request<Texture2D>(path).Value;
-        }
         public override string Texture => "HeroRegression/Textures/HOFweapons/长矛"; public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 10;

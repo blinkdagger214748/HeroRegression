@@ -32,7 +32,7 @@ namespace HeroRegression.Projectiles.Boss.FlameReaction
         }
         public override bool PreDraw(ref Color lightColor)
         {
-            Texture2D tex = HeroRegression.GetTex("HeroRegression/Textures/StarDrawBack");
+            Texture2D tex = GetTex("HeroRegression/Textures/StarDrawBack");
             Vector2 ori = new Vector2(17, 21);
             Vector2 pos = Projectile.Center - Main.screenPosition;
             Main.EntitySpriteDraw(tex, pos, null, Color.White * .85f, Projectile.velocity.ToRotation() + MathHelper.ToRadians(90), ori, 1f, SpriteEffects.None, 0);

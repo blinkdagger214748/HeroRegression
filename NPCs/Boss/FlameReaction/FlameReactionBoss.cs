@@ -51,7 +51,7 @@ namespace HeroRegression.NPCs.Boss.FlameReaction
 
         public override bool PreDraw(SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
         {
-            Texture2D tex = HeroRegression.GetTex("HeroRegression/Textures/FlameReactionTex");
+            Texture2D tex = GetTex("HeroRegression/Textures/FlameReactionTex");
             Vector2 ori = new Vector2(32, 32);
             Vector2 pos1 = NPC.Center - Main.screenPosition;
             if (HasTrail)
@@ -175,7 +175,7 @@ namespace HeroRegression.NPCs.Boss.FlameReaction
                         if (SpellTimer == 1)
                         {
                             
-                             SoundEngine.PlaySound(new("HeroRegression/Sounds/Custom/roar"), NPC.Center);
+                             SoundEngine.PlaySound(SoundID.Roar, NPC.Center);
                             DashPos = Main.LocalPlayer.Center + Vector2.Normalize(-NPC.Center + Main.LocalPlayer.Center) * (Vector2.Distance(NPC.Center, Main.LocalPlayer.Center) + 500);
                         }
                         if (SpellTimer > 1)
@@ -299,14 +299,14 @@ namespace HeroRegression.NPCs.Boss.FlameReaction
                         }
                         if (SpellTimer == 30)
                         {
-                            SoundEngine.PlaySound(new("HeroRegression/Sounds/Custom/roar"), NPC.Center);
+                            SoundEngine.PlaySound(SoundID.Roar, NPC.Center);
                         }
                         if (SpellTimer > 30)
                         {
                             NPC.velocity = (DashPos - NPC.Center) / 30;
                             if (SpellTimer == 90)
                             {
-                                SoundEngine.PlaySound(new("HeroRegression/Sounds/Custom/roar"), NPC.Center);
+                                SoundEngine.PlaySound(SoundID.Roar, NPC.Center);
                                 Projectile.NewProjectile(null,Main.LocalPlayer.Center + new Vector2(0, -150), Vector2.Zero, ModContent.ProjectileType<FallingSlash>(), 11, .1f);
                                 SpellTimer = 0;
                                 Dash = false;
@@ -354,7 +354,7 @@ namespace HeroRegression.NPCs.Boss.FlameReaction
                         if (SpellTimer == 390)
                         {
                             Dash = true;
-                            SoundEngine.PlaySound(new("HeroRegression/Sounds/Custom/roar"), NPC.Center);
+                            SoundEngine.PlaySound(SoundID.Roar, NPC.Center);
                             NPC.velocity = new Vector2(-15, 0);
                         }
                         if (SpellTimer > 390)

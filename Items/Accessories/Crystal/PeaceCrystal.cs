@@ -4,7 +4,6 @@ using Terraria.Localization;
 using Terraria.ID;
 using Terraria.DataStructures;
 using HeroRegression.HeroPlayers;
-using HeroRegression.Items.Beginner;
 
 namespace HeroRegression.Items.Accessories.Crystal
 {

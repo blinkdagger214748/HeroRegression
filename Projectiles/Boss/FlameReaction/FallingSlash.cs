@@ -33,7 +33,7 @@ namespace HeroRegression.Projectiles.Boss.FlameReaction
         }
         public override bool PreDraw(ref Color drawColor)
         {
-            Texture2D tex = HeroRegression.GetTex("HeroRegression/Textures/FallingSlashTex");
+            Texture2D tex = GetTex("HeroRegression/Textures/FallingSlashTex");
             Vector2 ori = new Vector2(30, 150);
             Rectangle rec = new Rectangle(60 * Projectile.frameCounter, 0, 60, 300);
             Main.EntitySpriteDraw(tex, Projectile.Center - Main.screenPosition, rec, Color.White, 0, ori, 1f, SpriteEffects.None, 0);

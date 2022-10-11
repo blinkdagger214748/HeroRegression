@@ -2,8 +2,8 @@
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using HeroRegression.Items.Beginner;
 using HeroRegression.Items;
+using HeroRegression.Items.Armor;
 
 namespace HeroRegression.Items.Soul.Icesoul
 {
@@ -40,7 +40,7 @@ namespace HeroRegression.Items.Soul.Icesoul
             CreateRecipe()
             .AddIngredient(ModContent.ItemType<BeginnerArmor>(), 1)
             .AddIngredient(ItemID.EskimoCoat, 1)
-            .AddIngredient(ModContent.ItemType<Lingcuistone>(), 3)
+            .AddIngredient(ModContent.ItemType<Placeable.Block.Lingcuistone>(), 3)
             .AddIngredient(ItemID.Bone, 10)
             .AddIngredient(ItemID.IceTorch, 10)
 

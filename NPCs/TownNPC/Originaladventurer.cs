@@ -12,6 +12,7 @@ using System.IO;
 using Terraria.Utilities;
 using Microsoft.Xna.Framework.Graphics;
 using HeroRegression.Items.Accessories;
+
 namespace HeroRegression.NPCs.TownNPC
 {
     [AutoloadHead]
@@ -138,13 +139,13 @@ namespace HeroRegression.NPCs.TownNPC
         {
             if (!Main.dayTime)
             {
-                shop.item[nextSlot].SetDefaults(ModContent.ItemType<Items.Moonstone.Moonstonespear > ());
+                shop.item[nextSlot].SetDefaults(ModContent.ItemType<Items.Weapons.Melee.Moonstonespear > ());
                 shop.item[nextSlot].value = 55000;
                 nextSlot++;
             }
             if (!Main.dayTime)
             {
-                shop.item[nextSlot].SetDefaults(ModContent.ItemType<Items.Moonstone.Tatteredbook>());
+                shop.item[nextSlot].SetDefaults(ModContent.ItemType<Items.Weapons.Magic.Tatteredbook>());
                 shop.item[nextSlot].value = 55000;
                 nextSlot++;
             }

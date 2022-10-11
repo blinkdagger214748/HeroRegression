@@ -35,7 +35,7 @@ namespace HeroRegression.Projectiles.Boss.FlameReaction
         }
         public override bool PreDraw(ref Color drawColor)
         {
-            Texture2D tex = HeroRegression.GetTex("HeroRegression/Projectiles/Boss/FlameReaction/FlameReactionBulletP2");
+            Texture2D tex = GetTex("HeroRegression/Projectiles/Boss/FlameReaction/FlameReactionBulletP2");
             Vector2 ori = new Vector2(32, 32);
             Vector2 pos1 = Projectile.Center - Main.screenPosition;
             for (int i = 0; i <= 11; i += 1)

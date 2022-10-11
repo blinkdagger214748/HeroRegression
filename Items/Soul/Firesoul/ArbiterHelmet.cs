@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using HeroRegression.Items.Boss.SeedsOfOrigin;
+using HeroRegression.Items.Material;
 
 namespace HeroRegression.Items.Soul.Firesoul
 {
