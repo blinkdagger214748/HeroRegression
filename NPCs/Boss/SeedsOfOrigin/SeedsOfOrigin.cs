@@ -13,7 +13,13 @@ using System;
 using System.IO;
 using Microsoft.Xna.Framework.Graphics;
 using HeroRegression.HeroPlayers;
-
+using HeroRegression.Items.TreasureBag;
+using HeroRegression.Items.Placeable.Trophy;
+using HeroRegression.Items.Weapons.Ranged;
+using HeroRegression.Items.Weapons.Magic;
+using HeroRegression.Items.Weapons.Yoyo;
+using HeroRegression.Items.Weapons.Minion;
+using HeroRegression.Items.Accessories;
 
 namespace HeroRegression.NPCs.Boss.SeedsOfOrigin
 {
@@ -434,8 +440,21 @@ namespace HeroRegression.NPCs.Boss.SeedsOfOrigin
             }
             return true;
         }
+        public override void ModifyNPCLoot(NPCLoot npcLoot)
+        {
+            BaseBossLoot npc = GetLootNPC(NPC);
+            npc.NormalLoots.Add(new Vector4(ModContent.ItemType<Calcificationofcrystallization>(), 1, 10, 20));
+            npc.OptionsLoots = new int[5]
+            {
+                ModContent.ItemType<Overloaded_Energy>(),
+                ModContent.ItemType<Brilliant>(),
+                ModContent.ItemType<GreenCrystalYoYo>(),
+                ModContent.ItemType<OriginalInterestItem>(),
+                ModContent.ItemType<GreenShadeBow>()
+            };
+            npc.ModifyLoots(npcLoot,ModContent.ItemType<起源之种财宝袋>(),ModContent.ItemType<SeedBossTrophy>(),ModContent.ItemType<SeedBossRelicItem>(),-1,-1);
+        }
 
-        
         #region AI
 
         /*非①

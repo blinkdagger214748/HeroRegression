@@ -15,82 +15,33 @@ using HeroRegression.Items.Weapons.Ranged;
 using HeroRegression.Items.Weapons.Melee;
 using HeroRegression.Items.Material;
 using HeroRegression.Items.Weapons.Minion;
+using HeroRegression.NPCs.Boss.SeedsOfOrigin;
+using HeroRegression.Items.Placeable.Trophy;
 
 namespace HeroRegression.Items.TreasureBag
 {
-    public class 起源之种财宝袋 : ModItem
-	{
-		public override void SetStaticDefaults()
-		{
-			DisplayName.SetDefault("财宝袋");
-			Tooltip.SetDefault("{$CommonItemTooltip.RightClickToOpen}");
-		}
-		public override void SetDefaults()
-		{
-			Item.maxStack = 999;
-			Item.consumable = true;
-			Item.width = 24;
-			Item.height = 24;
-			Item.rare = ItemRarityID.Expert;
-			Item.expert = true;
-		}
-		public override bool CanRightClick()
-		{
-			return true;
-		}
-		public override void OpenBossBag(Player player)
-		{
-			CombatText.NewText(new Rectangle((int)player.position.X, (int)player.position.Y, player.width, player.height)
-						  , Color.GreenYellow, "......", true, false);
-			int k = Main.rand.Next(5);
-			if (k == 0)
-			{
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<GreenShadeBow>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Thebadgeofpurity>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<GreenCrystalYoYo>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Overloaded_Energy>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Calcificationofcrystallization>(), 12);
-			}
-			if (k == 1)
-			{
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<OriginalInterestItem>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<GreenCrystalYoYo>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Overloaded_Energy>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Calcificationofcrystallization>(), 16);
-			}
-			if (k == 2)
-			{
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Brilliant>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<GreenCrystalYoYo>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Overloaded_Energy>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Calcificationofcrystallization>(), 17);
-
-			}
-			if (k == 3)
-			{
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<GreenCrystalYoYo>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<GreenShadeBow>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<GroupOfHeroes>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Overloaded_Energy>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Calcificationofcrystallization>(), 14);
-			}
-			if (k == 4)
-			{
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<GreenCrystalYoYo>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<GroupOfHeroes>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Brilliant>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Overloaded_Energy>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Calcificationofcrystallization>(), 13);
-			}
-			if (k == 5)
-			{
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<OriginalInterestItem>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<GreenCrystalYoYo>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<GroupOfHeroes>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Overloaded_Energy>(), 1);
-				player.QuickSpawnItem(player.GetSource_OpenItem(Type), ItemType<Calcificationofcrystallization>(), 14);
-			}
-		}
-		public override int BossBagNPC => NPCType<NPCs.Boss.SeedsOfOrigin.SeedsOfOrigin>();
-	}
+    public class 起源之种财宝袋 : BaseBossBag
+    {
+        public override void SetStaticDefaults()
+        {
+            BagStatics(ChnTrans("Seed of Origin", "起源之种"));
+        }
+        public override void SetDefaults()
+        {
+            BagDefaults(24, 24);
+        }
+        public override void ModifyItemLoot(ItemLoot itemLoot)
+        {
+            CommonLoots.Add(new Vector4(ItemType<Calcificationofcrystallization>(), 1, 10, 20));
+            OneFromOptionsLoots = new int[5]
+            {
+                ItemType<Overloaded_Energy>(),
+                ItemType<Brilliant>(),
+                ItemType<GreenCrystalYoYo>(),
+                ItemType<OriginalInterestItem>(),
+                ItemType<GreenShadeBow>()
+            };
+            BagLoot(itemLoot, NPCType<SeedsOfOrigin>(), ItemType<Thebadgeofpurity>());
+        }
+    }
 }

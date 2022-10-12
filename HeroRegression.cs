@@ -2,23 +2,29 @@ global using Terraria.Audio;
 global using HeroRegression.Common.BaseClasses.BaseSummon;
 global using HeroRegression.Common.BaseClasses.BaseWeapon;
 global using HeroRegression.Common.BaseClasses.BaseProj;
+global using HeroRegression.Common.BaseClasses.BaseLoot;
 global using HeroRegression.Common.Systems;
 global using HeroRegression.Projectiles.Friendly;
 global using HeroRegression.Items.Material;
 global using HeroRegression.HeroPlayers;
+global using HeroRegression.Tiles.Relics;
+global using HeroRegression.Items.Placeable.Relic;
 global using HeroRegression.HRUtils;
 global using Microsoft.Xna.Framework.Graphics;
 global using Terraria.ID;
+global using Terraria.ModLoader;
+global using Terraria.DataStructures;
+global using Terraria.ObjectData;
+global using Microsoft.Xna.Framework;
+global using Terraria;
 global using static HeroRegression.HRHelper;
 global using Terraria.Localization;
 global using Terraria.GameContent;
 global using System;
 global using System.Collections.Generic;
 using HeroRegression.Skies;
-using Terraria;
 using Terraria.Graphics.Effects;
 using Terraria.Graphics.Shaders;
-using Terraria.ModLoader;
 using System.IO;
 using Microsoft.Xna.Framework;
 
@@ -76,6 +82,10 @@ namespace HeroRegression
         public static string ChnTrans(string Eng, string Chn)
         {
             return Language.ActiveCulture.Name == "zh-Hans" ? Chn : Eng;
+        }
+        public static BaseBossLoot GetLootNPC(NPC npc)
+        {
+            return npc.GetGlobalNPC<BaseBossLoot>();
         }
     }
 }

@@ -56,7 +56,7 @@ namespace HeroRegression.Projectiles.Friendly.Melee
         }
         public override bool PreDraw(ref Color lightColor)
         {
-            Texture2D tex = Request<Texture2D>("HeroRegression/Projectiles/Flamecolordaggerdm").Value;
+            Texture2D tex = TextureAssets.Projectile[Type].Value;
             Vector2 ori = new Vector2(30, 30);
             Vector2 pos1 = Projectile.Center - Main.screenPosition;
             for (int i = 0; i <= 6; i += 1)
