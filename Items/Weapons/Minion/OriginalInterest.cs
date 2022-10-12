@@ -122,20 +122,24 @@ namespace HeroRegression.Items.Weapons.Minion
         public Vector2 OwnerRelativePos;
         public float StateTimer;
         public float FollowRadius;
+        public float Fatique = 0f;
         public override void SendExtraAI(BinaryWriter writer)
         {
             writer.Write(StateTimer);
             writer.WriteVector2(OwnerRelativePos);
             writer.Write(FollowRadius);
+            writer.Write(Fatique);
         }
         public override void ReceiveExtraAI(BinaryReader reader)
         {
             StateTimer = reader.ReadSingle();
             OwnerRelativePos = reader.ReadVector2();
             FollowRadius = reader.ReadSingle();
+            Fatique = reader.ReadSingle();
         }
         public override bool PreAI()
         {
+            if (Fatique < 1) Fatique += .025f;
             Player owner = Main.player[Projectile.owner];
             SearchTargets(owner, out int targetIndex, 500f, 1.3f, false);
             TargetEnm = targetIndex;
@@ -200,13 +204,14 @@ namespace HeroRegression.Items.Weapons.Minion
                             (target.Center - Projectile.Center).ToRotation() - MathHelper.Pi;
                         int numMinions = owner.ownedProjectileCounts[Type];
                         Vector2 destPos = target.Center + ((float)MinionOrderNum / numMinions * MathHelper.TwoPi).ToRotationVector2() * FollowRadius;
-                        Projectile.velocity = ExtensionVec2.RestrictedVec2(Vector2.Lerp(Projectile.velocity, (destPos - Projectile.Center) / 30f, .5f), 24f);
-                        if (Vector2.Distance(Projectile.Center, target.Center) <= 250f)
+                        Projectile.velocity = ExtensionVec2.RestrictedVec2(Vector2.Lerp(Projectile.velocity, (destPos - Projectile.Center) / 30f, .5f * Fatique), 24f);
+                        if (Vector2.Distance(Projectile.Center, target.Center) <= 275f)
                         {
                             if (StateTimer % 60 == 0)
                             {
+                                Fatique = 0;
                                 if (Main.netMode != NetmodeID.MultiplayerClient) Projectile.NewProjectile(Projectile.GetSource_FromThis(), Projectile.Center, ExtensionVec2.SNormalize(target.Center - Projectile.Center), ModContent.ProjectileType<OriginalBeam>(), Projectile.damage, Projectile.knockBack, Projectile.owner);
-                                Projectile.velocity -= ExtensionVec2.SNormalize(target.Center - Projectile.Center) * 10f;
+                                Projectile.velocity -= ExtensionVec2.SNormalize(target.Center - Projectile.Center) * 6.66f;
                             }
                         }
                         break;

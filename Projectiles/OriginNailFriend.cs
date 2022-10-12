@@ -14,7 +14,6 @@ namespace HeroRegression.Projectiles
 {
     class OriginNailFriend : ModProjectile
     {
-        public override string Texture => "Terraria/Images/Projectile_"+ ProjectileID.FrostArrow;
         public override void SetDefaults()
         {
             Projectile.width = 8;

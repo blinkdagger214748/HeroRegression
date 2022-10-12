@@ -10,30 +10,16 @@ using HeroRegression.Projectiles.YoYo;
 
 namespace HeroRegression.Items.Weapons.Yoyo
 {
-    public class GreenCrystalYoYo : ModItem
+    public class GreenCrystalYoYo : BaseYoyoItem
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Green Crystal YoYo");
-            DisplayName.AddTranslation((int)GameCulture.CultureName.Chinese, "绿晶悠悠球");
-            Tooltip.SetDefault("[c/FF0000:BOSS Relics]");
-            Tooltip.AddTranslation((int)GameCulture.CultureName.Chinese, "[c/FF0000:BOSS遗物]");
+            YoyoItemStatics(ChnTrans("Green Crystal Yoyo", "绿晶悠悠球"), ChnTrans("Boss Relics", "BOSS遗物"));
         }
-
-
         public override void SetDefaults()
         {
-            Item.CloneDefaults(ItemID.CorruptYoyo);
-            Item.damage = 16;
-            Item.value = 14000;
-            Item.knockBack = 1;
-            Item.channel = true;
-            Item.useStyle = 5;
-            Item.useAnimation = 25;
-            Item.useTime = 25;
+            YoyoItemDefaults(40, 34, 16, 1, 25, ModContent.ProjectileType<Projectiles.Friendly.Melee.GreenCrystalYoyoProj>(), ItemRarityID.Green, 14000, 15);
             Item.expert = true;
-            Item.shoot = ModContent.ProjectileType<OSyoyo>();
         }
-
     }
 }

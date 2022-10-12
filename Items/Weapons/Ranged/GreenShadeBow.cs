@@ -37,24 +37,25 @@ namespace HeroRegression.Items.Weapons.Ranged
             Item.shootSpeed = 7;
             Item.rare = ItemRarityID.Green;
             Item.useAmmo = AmmoID.Arrow;
-            Item.shoot = 10;
+            Item.shoot = ProjectileID.WoodenArrowFriendly;
 
         }
-
         public override Vector2? HoldoutOffset()
         {
             return new Vector2(-10, 0);
         }
+        public override void ModifyShootStats(Player player, ref Vector2 position, ref Vector2 velocity, ref int type, ref int damage, ref float knockback)
+        {
+            if (type == ProjectileID.WoodenArrowFriendly) type = ModContent.ProjectileType<OriginNailFriend>();
+        }
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
-            type = ModContent.ProjectileType<OriginNailFriend2>();
             if (Main.rand.NextBool(5))
             {
-                Projectile.NewProjectile(source, player.Center, velocity, type, damage, 5f, player.whoAmI);
+                Projectile.NewProjectile(source, position + Main.rand.NextVector2CircularEdge(5f, 5f), velocity, ModContent.ProjectileType<OriginNailFriend>(), damage, 5f, player.whoAmI);
 
             }
-
-            return false;
+            return true;
         }
     }
 }

@@ -46,12 +46,15 @@ namespace HeroRegression.Common.BaseClasses.BaseProj
         /// <param name="trailFade">how quickly should the trail fade out</param>
         /// <param name="DirToVel">whether the projectile syncs its rotation to the velocity</param>
         /// <param name="additive">whether the projectile will be drawn in additive blending</param>
-        public void Defaults(int width, int height, int timeLeft, int penetrate = 1, bool tileCollide = true, int extraUpdate = 0, float rotOffset = 0, int trailInterval = 1, float trailFade = 1f, bool DirToVel = true, bool additive = false, bool isTrailAdditive = false)
+        public void Defaults(int width, int height, int timeLeft = -1, int penetrate = 1, bool tileCollide = true, int extraUpdate = 0, float rotOffset = 0, int trailInterval = 1, float trailFade = 1f, bool DirToVel = true, bool additive = false, bool isTrailAdditive = false)
         {
             Projectile.width = width;
             Projectile.height = height;
-            Projectile.timeLeft = timeLeft;
-            MaxTime = timeLeft;
+            if (timeLeft > 0)
+            {
+                Projectile.timeLeft = timeLeft;
+                MaxTime = timeLeft;
+            }
             Projectile.penetrate = penetrate;
             Projectile.tileCollide = tileCollide;
             Projectile.extraUpdates = extraUpdate;
@@ -95,7 +98,7 @@ namespace HeroRegression.Common.BaseClasses.BaseProj
                         for (int i = 1; i < ProjectileID.Sets.TrailCacheLength[Projectile.type]; i += TrailInterval)
                         {
                             Vector2 pos = Projectile.oldPos[i] + new Vector2(Projectile.width / 2f, Projectile.height / 2f) - Main.screenPosition;
-                            float scaleLerp = ((float)Projectile.oldPos.Length - i) / Projectile.oldPos.Length;
+                            float scaleLerp = (float)Math.Pow(TrailFade, ((float)Projectile.oldPos.Length - i) / Projectile.oldPos.Length);
                             float scale = MathHelper.Lerp(1, scaleLerp, TrailFade);
                             Color color = trailColor * (float)((float)((float)Projectile.oldPos.Length - i) / Projectile.oldPos.Length) * ((float)(255 - (float)Projectile.alpha) / 255f);
                             spriteBatch.Draw(

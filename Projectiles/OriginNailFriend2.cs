@@ -15,7 +15,6 @@ namespace HeroRegression.Projectiles
 
     class OriginNailFriend2 : ModProjectile
     {
-        public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.FrostArrow;
         public override void SetDefaults()
         {
             Projectile.width = 8;
@@ -34,15 +33,9 @@ namespace HeroRegression.Projectiles
             Dust D = Dust.NewDustDirect(Projectile.Center, 0, 0, DustID.GemEmerald);
            
         }
-        public override bool PreDraw(ref Color lightColor)
+        public override Color? GetAlpha(Color lightColor)
         {
-            Texture2D SO = Terraria.GameContent.TextureAssets.Projectile[Projectile.type].Value;
-
-
-            Main.spriteBatch.Draw(SO, Projectile.Center - Main.screenPosition, null, Color.White, Projectile.rotation, new Vector2(10, 5), 1, SpriteEffects.None, 0f);
-
-
-            return false;
+            return Color.Lerp(lightColor, Color.White, .5f);
         }
     }
 }

@@ -3,6 +3,7 @@ global using HeroRegression.Common.BaseClasses.BaseSummon;
 global using HeroRegression.Common.BaseClasses.BaseWeapon;
 global using HeroRegression.Common.BaseClasses.BaseProj;
 global using HeroRegression.Common.Systems;
+global using HeroRegression.Projectiles.Friendly;
 global using HeroRegression.Items.Material;
 global using HeroRegression.HeroPlayers;
 global using HeroRegression.HRUtils;
