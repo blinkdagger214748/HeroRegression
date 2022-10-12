@@ -106,7 +106,7 @@ namespace HeroRegression.Common.BaseClasses.BaseProj
                                 pos,
                                 null,
                                 color,
-                                Projectile.oldRot[i],
+                                ProjectileID.Sets.TrailingMode[Projectile.type] == 2 ? Projectile.oldRot[i] : Projectile.rotation,
                                 TextureAssets.Projectile[Projectile.type].Value.Size() / 2,
                                 scale,
                                 effect,

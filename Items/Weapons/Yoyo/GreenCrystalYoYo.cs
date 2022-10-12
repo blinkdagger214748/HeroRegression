@@ -6,7 +6,7 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using HeroRegression.Projectiles;
-using HeroRegression.Projectiles.YoYo;
+
 
 namespace HeroRegression.Items.Weapons.Yoyo
 {

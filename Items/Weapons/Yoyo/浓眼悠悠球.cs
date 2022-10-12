@@ -6,11 +6,11 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using HeroRegression.Projectiles;
-using HeroRegression.Projectiles.YoYo;
+using HeroRegression.Projectiles.Friendly.Melee;
 
 namespace HeroRegression.Items.Weapons.Yoyo
 {
-   public class 浓眼悠悠球 : ModItem
+    public class 浓眼悠悠球 : ModItem
     {
         public override void SetStaticDefaults()
         {

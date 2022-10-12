@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 using Terraria.ID;
 using Microsoft.Xna.Framework;
 using Terraria.DataStructures;
-using HeroRegression.Projectiles;
+using HeroRegression.Projectiles.Friendly.Ranged;
 
 namespace HeroRegression.Items.Weapons.Ranged
 {

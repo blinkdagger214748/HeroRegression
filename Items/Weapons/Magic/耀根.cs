@@ -5,7 +5,6 @@ using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using HeroRegression.Projectiles;
 
 namespace HeroRegression.Items.Weapons.Magic
 {
@@ -33,7 +32,7 @@ namespace HeroRegression.Items.Weapons.Magic
             Item.useTime = 15;
             Item.useAnimation = 15;
             Item.noMelee = true;
-            Item.shoot = ModContent.ProjectileType<Projectiles.闪耀根>();
+            Item.shoot = ModContent.ProjectileType<Projectiles.Friendly.Magic.闪耀根>();
             Item.shootSpeed = 15f;
             Item.mana = 5;
             Item.rare = ItemRarityID.Green;

@@ -66,7 +66,7 @@ namespace HeroRegression.Items.Weapons.Melee
             // 最大堆叠数量，唔，对于武器来说，即使你堆了99个，使用的时候还是只有一个的效果
             Item.maxStack = 1;
             //弹幕
-            Item.shoot = ModContent.ProjectileType<Projectiles.HeroSlash1>();
+            Item.shoot = ModContent.ProjectileType<Projectiles.Friendly.Melee.HeroSlash1>();
             Item.channel = true;
             Item.shootSpeed = 0.01f;
             Item.noUseGraphic = true;

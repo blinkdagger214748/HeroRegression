@@ -178,7 +178,7 @@ namespace HeroRegression.NPCs.TownNPC
         }
         public override void TownNPCAttackProj(ref int projType, ref int attackDelay)
         {
-            projType = ModContent.ProjectileType<Projectiles.OriginNailFriend>();
+            projType = ModContent.ProjectileType<Projectiles.Friendly.Ranged.OriginNailFriend>();
             
             attackDelay = 120;
            

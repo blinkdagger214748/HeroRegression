@@ -5,7 +5,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using HeroRegression.Projectiles;
+using HeroRegression.Projectiles.Friendly.Magic;
 
 namespace HeroRegression.Items.Weapons.Magic
 {

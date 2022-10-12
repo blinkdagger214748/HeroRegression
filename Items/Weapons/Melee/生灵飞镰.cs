@@ -64,7 +64,7 @@ namespace HeroRegression.Items.Weapons.Melee
             Item.height = 64;
          
             Item.maxStack = 1;
-            Item.shoot = ModContent.ProjectileType<Projectiles.LC>();
+            Item.shoot = ModContent.ProjectileType<Projectiles.Friendly.Melee.LC>();
 
             Item.shootSpeed = 25f;
        
@@ -76,7 +76,7 @@ namespace HeroRegression.Items.Weapons.Melee
         }
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {   Vector2 o1 = new Vector2(velocity.X, velocity.Y);
-            Projectile.NewProjectileDirect(source, position, o1, ModContent.ProjectileType<Projectiles.LC>(), damage, knockback, player.whoAmI);
+            Projectile.NewProjectileDirect(source, position, o1, ModContent.ProjectileType<Projectiles.Friendly.Melee.LC>(), damage, knockback, player.whoAmI);
             return false;
         }
        

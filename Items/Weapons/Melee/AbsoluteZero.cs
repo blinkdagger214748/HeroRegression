@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Localization;
-using HeroRegression.Projectiles;
+using HeroRegression.Projectiles.Friendly.Melee;
 
 namespace HeroRegression.Items.Weapons.Melee
 {

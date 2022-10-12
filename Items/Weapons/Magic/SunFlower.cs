@@ -32,7 +32,7 @@ namespace HeroRegression.Items.Weapons.Magic
             Item.useTime = 15;
             Item.useAnimation = 15;
             Item.noMelee = true;
-            Item.shoot = ModContent.ProjectileType<Projectiles.SunFlower>();
+            Item.shoot = ModContent.ProjectileType<Projectiles.Friendly.Magic.SunFlower>();
             Item.shootSpeed = 7;
             Item.mana = 5;
             Item.rare = ItemRarityID.Green;

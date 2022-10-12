@@ -5,8 +5,8 @@ using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using HeroRegression.Projectiles;
 using Terraria.DataStructures;
+using HeroRegression.Projectiles.Friendly.Ranged;
 
 namespace HeroRegression.Items.Weapons.Ranged
 {
@@ -52,7 +52,7 @@ namespace HeroRegression.Items.Weapons.Ranged
         {
             if (Main.rand.NextBool(5))
             {
-                Projectile.NewProjectile(source, position + Main.rand.NextVector2CircularEdge(5f, 5f), velocity, ModContent.ProjectileType<OriginNailFriend>(), damage, 5f, player.whoAmI);
+                Projectile.NewProjectile(source, position + Main.rand.NextVector2CircularEdge(20f, 20f), velocity, ModContent.ProjectileType<OriginNailFriend>(), damage, 5f, player.whoAmI);
 
             }
             return true;

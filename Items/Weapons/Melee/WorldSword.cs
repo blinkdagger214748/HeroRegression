@@ -49,7 +49,7 @@ namespace HeroRegression.Items.Weapons.Melee
             // summon 代表召唤
             // thrown 代表投掷
             Item.DamageType = DamageClass.Melee;
-            Item.shoot = ModContent.ProjectileType<Projectiles.WorldSwordproj>();
+            Item.shoot = ModContent.ProjectileType<Projectiles.Friendly.Melee.WorldSwordproj>();
             Item.value = Item.sellPrice(0, 22, 66, 50);
             // 设置这个物品使用时发出的声音，以后会讲到怎么调出其他声音a
             // 在这里我用的是普通的挥剑声音

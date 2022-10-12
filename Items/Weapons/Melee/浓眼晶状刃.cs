@@ -50,7 +50,7 @@ namespace HeroRegression.Items.Weapons.Melee
             
             Item.DamageType = DamageClass.Melee;
 
-            Item.shoot = ModContent.ProjectileType<Projectiles.眼球弹幕>();
+            Item.shoot = ModContent.ProjectileType<Projectiles.Friendly.眼球弹幕>();
             Item.value = Item.sellPrice(0, 0, 80, 0);
             
             

@@ -12,7 +12,7 @@ namespace HeroRegression.Projectiles.Friendly.Melee
     {
         public override void SetStaticDefaults()
         {
-            YoyoStatics(ChnTrans("Green Crystal Yoyo", "绿晶悠悠球"), 15, 300, 15, 6, 0);
+            YoyoStatics(ChnTrans("Green Crystal Yoyo", "绿晶悠悠球"), 15, 300, 15, 8, 1);
         }
         public override void SetDefaults()
         {
@@ -29,15 +29,16 @@ namespace HeroRegression.Projectiles.Friendly.Melee
         }
         public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
         {
-            SoundEngine.PlaySound(SoundID.Item25, Projectile.Center);
             if (Main.rand.NextFloat() <= .15f)
             {
+                SoundEngine.PlaySound(SoundID.Item25, Projectile.Center);
                 for (int i = 0; i < 3; i++)
                 {
                     if (Main.netMode != NetmodeID.MultiplayerClient)
                     {
                         Vector2 vel = Main.rand.NextVector2CircularEdge(8f, 8f);
-                        Projectile.NewProjectile(Projectile.GetSource_FromAI(), Projectile.Center, vel, ModContent.ProjectileType<OriginNailFriend2>(), Projectile.damage / 2, Projectile.knockBack * .66f, Projectile.owner);
+                        Projectile proj =  Projectile.NewProjectileDirect(Projectile.GetSource_FromAI(), Projectile.Center, vel, ModContent.ProjectileType<OriginNailFriend2>(), Projectile.damage / 2, Projectile.knockBack * .66f, Projectile.owner);
+                        proj.DamageType = DamageClass.MeleeNoSpeed;
                     }
                 }
             }

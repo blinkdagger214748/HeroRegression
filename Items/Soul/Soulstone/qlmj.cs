@@ -50,7 +50,7 @@ namespace HeroRegression.Items.Soul.Soulstone
             
             Item.DamageType = DamageClass.Melee;
 
-            Item.shoot = ModContent.ProjectileType<Projectiles.Qljq>();
+            Item.shoot = ModContent.ProjectileType<Projectiles.Friendly.Melee.Qljq>();
             Item.value = Item.sellPrice(0, 0, 80, 0);
             
             
