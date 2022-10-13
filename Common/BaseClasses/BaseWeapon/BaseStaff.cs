@@ -32,7 +32,7 @@ namespace HeroRegression.Common.BaseClasses.BaseWeapon
             Tooltip.AddTranslation((int)GameCulture.CultureName.Chinese, Chn);
             Item.staff[Item.type] = true;
         }
-        public void Defaults(int width, int height, int damage, int useTime, int value, float knockback, int rare, int crit = 0, bool autoReuse = true, bool useTurn =true, int shootSpeed = 10, int mana = 6, int reuseDelay = 0)
+        public void Defaults(int width, int height, int damage, int useTime, int value, float knockback, int rare, int crit = 0, int shoot = -1, bool channel = false, bool autoReuse = true, bool useTurn =true, int shootSpeed = 10, int mana = 6, int reuseDelay = 0, bool noUseGraphic=false)
         {
             Item.width = width;
             Item.height = height;
@@ -44,6 +44,8 @@ namespace HeroRegression.Common.BaseClasses.BaseWeapon
             Item.knockBack = knockback;
             Item.rare = rare;
             Item.crit = crit;
+            if (shoot != -1) Item.shoot = shoot;
+            Item.channel = channel;
             Item.autoReuse = autoReuse;
             Item.useTurn = useTurn;
             Item.useStyle = ItemUseStyleID.Shoot;
@@ -51,6 +53,7 @@ namespace HeroRegression.Common.BaseClasses.BaseWeapon
             Item.mana = mana;
             Item.reuseDelay = reuseDelay;
             Item.noMelee = true;
+            Item.noUseGraphic = noUseGraphic;
         }
     }
 }

@@ -12,5 +12,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Common\Globals\" />
+    <Folder Include="Graphics\Particles\" />
   </ItemGroup>
 </Project>

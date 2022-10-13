@@ -14,18 +14,16 @@ namespace HeroRegression.Items.Weapons.Magic
         public override void SetStaticDefaults()
         {
             ItemName("Emerald Glow", "碧辉");
-            ItemTooltip("Shoots emeralds that explode on impact.", "发射接触时爆炸的绿宝石。");
+            ItemTooltip("Shoots emerald gems that explode on impact", "发射接触时爆炸的绿宝石");
         }
         public override void SetDefaults()
         {
-            Defaults(40, 68, 18, 15, Item.buyPrice(0, 2, 0, 0), 4f, ItemRarityID.Green, 8, true, true, 8, 5);
+            Defaults(40, 68, 12, 10, Item.buyPrice(0, 2, 0, 0), 6f, ItemRarityID.Green, 8, ModContent.ProjectileType<EmeraldGlowStaff>(), true, true, true, 16, 6, 10, true);
             Item.UseSound = SoundID.Item43;
-            Item.shoot = ModContent.ProjectileType<NaturalCrystallization>();
         }
-
-        public override Vector2? HoldoutOffset()
+        public override bool CanUseItem(Player player)
         {
-            return new Vector2(20, 0);
+            return player.ownedProjectileCounts[ModContent.ProjectileType<EmeraldGlowStaff>()] < 1;
         }
     }
 }
